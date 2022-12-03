@@ -1,2 +1,1 @@
-web:node App.js
-heroku ps:scale web=1
+web: node App.js
