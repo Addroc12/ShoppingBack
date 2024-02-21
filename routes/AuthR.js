@@ -10,7 +10,8 @@ const {userSignupValidator} = require('../validators/index')
 
 router.post('/signup', userSignupValidator ,  signup) //here  first we go to userSignupValidator then signup
 router.post('/signin',   signin)
-router.get('/signout',   signout)
+router.get('/signout',   signout) 
+    //sad
 
 router.get('/hello', requireSignin ,(req , res) => {
     res.send('hello')
